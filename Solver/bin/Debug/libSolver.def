@@ -1,0 +1,18 @@
+EXPORTS
+    _ZN7ISolver12createSolverEv @1
+    _ZN7ISolverD0Ev @2
+    _ZN7ISolverD1Ev @3
+    _ZN7ISolverD2Ev @4
+    _ZTI11IMultiIndex @5 DATA
+    _ZTI4ISet @6 DATA
+    _ZTI7ILogger @7 DATA
+    _ZTI7ISolver @8 DATA
+    _ZTI7IVector @9 DATA
+    _ZTI8ICompact @10 DATA
+    _ZTV11IMultiIndex @11 DATA
+    _ZTV4ISet @12 DATA
+    _ZTV7ILogger @13 DATA
+    _ZTV7ISolver @14 DATA
+    _ZTV7IVector @15 DATA
+    _ZTV8ICompact @16 DATA
+    getBroker @17

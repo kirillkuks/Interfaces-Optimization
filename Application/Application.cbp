@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Application" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Application" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option parameters="bin\Debug\plugins\DiffProblem.dll bin\Debug\plugins\Solver.dll" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Application" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add directory="include" />
+			<Add directory="src" />
+		</Compiler>
+		<Linker>
+			<Add library="libs/libCompact.a" />
+			<Add library="libs/libSet.a" />
+			<Add library="libs/libVector.a" />
+		</Linker>
+		<Unit filename="include/IBroker.h" />
+		<Unit filename="include/ICompact.h" />
+		<Unit filename="include/IDiffProblem.h" />
+		<Unit filename="include/ILogger.h" />
+		<Unit filename="include/IMultiIndex.h" />
+		<Unit filename="include/IProblem.h" />
+		<Unit filename="include/ISet.h" />
+		<Unit filename="include/ISolver.h" />
+		<Unit filename="include/IVector.h" />
+		<Unit filename="include/RC.h" />
+		<Unit filename="src/Interfacedllexport.h" />
+		<Unit filename="tests/BrokerGetterImpl.cpp" />
+		<Unit filename="tests/IBrokerGetter.h" />
+		<Unit filename="tests/main.cpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

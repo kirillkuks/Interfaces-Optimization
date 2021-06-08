@@ -1,0 +1,21 @@
+EXPORTS
+    _ZN11IMultiIndex16createMultiIndexEyPy @1
+    _ZN11IMultiIndexD0Ev @2
+    _ZN11IMultiIndexD1Ev @3
+    _ZN11IMultiIndexD2Ev @4
+    _ZN8ICompact13createCompactEPK7IVectorS2_PK11IMultiIndex @5
+    _ZN8ICompact17createCompactSpanEPKS_S1_PK11IMultiIndex @6
+    _ZN8ICompact18createIntersectionEPKS_S1_PK11IMultiIndexd @7
+    _ZN8ICompact9getLoggerEv @8
+    _ZN8ICompact9setLoggerEP7ILogger @9
+    _ZN8ICompactD0Ev @10
+    _ZN8ICompactD1Ev @11
+    _ZN8ICompactD2Ev @12
+    _ZTI11IMultiIndex @13 DATA
+    _ZTI7ILogger @14 DATA
+    _ZTI7IVector @15 DATA
+    _ZTI8ICompact @16 DATA
+    _ZTV11IMultiIndex @17 DATA
+    _ZTV7ILogger @18 DATA
+    _ZTV7IVector @19 DATA
+    _ZTV8ICompact @20 DATA

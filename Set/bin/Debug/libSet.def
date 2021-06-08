@@ -1,0 +1,19 @@
+EXPORTS
+    _ZN4ISet16makeIntersectionERKPKS_S3_N7IVector4NORMEd @1
+    _ZN4ISet3subERKPKS_S3_N7IVector4NORMEd @2
+    _ZN4ISet6equalsERKPKS_S3_N7IVector4NORMEd @3
+    _ZN4ISet6subSetERKPKS_S3_N7IVector4NORMEd @4
+    _ZN4ISet6symSubERKPKS_S3_N7IVector4NORMEd @5
+    _ZN4ISet9createSetEv @6
+    _ZN4ISet9getLoggerEv @7
+    _ZN4ISet9makeUnionERKPKS_S3_N7IVector4NORMEd @8
+    _ZN4ISet9setLoggerEP7ILogger @9
+    _ZN4ISetD0Ev @10
+    _ZN4ISetD1Ev @11
+    _ZN4ISetD2Ev @12
+    _ZTI4ISet @13 DATA
+    _ZTI7ILogger @14 DATA
+    _ZTI7IVector @15 DATA
+    _ZTV4ISet @16 DATA
+    _ZTV7ILogger @17 DATA
+    _ZTV7IVector @18 DATA

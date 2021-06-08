@@ -1,0 +1,31 @@
+EXPORTS
+    _ZN12IDiffProblem17createDiffProblemEv @1
+    _ZN12IDiffProblem9getLoggerEv @2
+    _ZN12IDiffProblem9setLoggerEP7ILogger @3
+    _ZN12IDiffProblemD0Ev @4
+    _ZN12IDiffProblemD1Ev @5
+    _ZN12IDiffProblemD2Ev @6
+    _ZN7IBrokerD0Ev @7
+    _ZN7IBrokerD1Ev @8
+    _ZN7IBrokerD2Ev @9
+    _ZN8IProblem13createProblemEv @10
+    _ZN8IProblem9getLoggerEv @11
+    _ZN8IProblem9setLoggerEP7ILogger @12
+    _ZN8IProblemD0Ev @13
+    _ZN8IProblemD1Ev @14
+    _ZN8IProblemD2Ev @15
+    _ZTI11IMultiIndex @16 DATA
+    _ZTI12IDiffProblem @17 DATA
+    _ZTI7IBroker @18 DATA
+    _ZTI7ILogger @19 DATA
+    _ZTI7IVector @20 DATA
+    _ZTI8ICompact @21 DATA
+    _ZTI8IProblem @22 DATA
+    _ZTV11IMultiIndex @23 DATA
+    _ZTV12IDiffProblem @24 DATA
+    _ZTV7IBroker @25 DATA
+    _ZTV7ILogger @26 DATA
+    _ZTV7IVector @27 DATA
+    _ZTV8ICompact @28 DATA
+    _ZTV8IProblem @29 DATA
+    getBroker @30
