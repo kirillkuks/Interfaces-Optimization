@@ -1,8 +1,13 @@
 /Vector/Vector.layout
+/Vector/Vector.depend
 /Set/Set.layout
+/Set/Set.depend
 /Compact/Compact.layout
+/Compact/Compact.depend
 /DiffProblem/DiffProblem.layout
+/DiffProblem/DiffProblem.depend
 /Solver/Solver.layout
+/Solver/Solver.depend
 /Application/Application.layout
 /Application/Application.depend
 

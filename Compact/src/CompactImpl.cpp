@@ -96,7 +96,7 @@ namespace {
 ILogger* CompactImpl::pLogger = nullptr;
 ILogger* CompactImpl::IteratorImpl::pLogger = nullptr;
 
-ICompact::IIterator::~IIterator() {}
+inline ICompact::IIterator::~IIterator() {}
 
 RC ICompact::IIterator::setLogger(ILogger* const logger) {
     if(!logger) {
@@ -613,7 +613,7 @@ ILogger* ICompact::getLogger() {
     return CompactImpl::pLogger;
 }
 
-ICompact::~ICompact() {}
+inline ICompact::~ICompact() {}
 
 CompactImpl::CompactImpl(size_t dim) : dim{ dim }, controlBlock{ new CompactControlBlockImpl(this) } {}
 
@@ -728,9 +728,12 @@ ICompact* CompactImpl::clone() const {
         }
         return nullptr;
     }
-    std::memcpy(data, this, size);
 
-    return (ICompact*)data;
+    ICompact* compact = new(data) CompactImpl(dim);
+    size_t instanceSize = sizeof(CompactImpl);
+    std::memcpy((std::uint8_t*)data + instanceSize, (std::uint8_t*)this + instanceSize, 2 * sizeof(double) * dim + sizeof(size_t) * dim + sizeof(double) * dim);
+
+    return compact;
 }
 
 bool CompactImpl::isInside(IVector const* const& vec) const {
